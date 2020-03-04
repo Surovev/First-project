@@ -29,19 +29,26 @@
     margin-top: 80px;
 }
 
-.logo_place_header {
-    background-image: url('../images/logo.svg');
-    position: absolute; 
-    background-size: cover;
-    left: 64px;
-    top: 30px;
-}
-
 .logo {
     width: 183px;
-    height: 32px;
     z-index: 1;
+    position: absolute; 
+    background-size: cover;
 }
+
+.logo_place_header {
+    background-image: url('../images/logo.svg');
+    height: 32px;    
+    left: 64px;        
+    top: 30px;    
+}
+
+.logo_place_footer {
+    background-image: url('../images/logo_white.svg');
+    height: 35px;
+}
+
+
 
 .link {
     color: #2F80ED;
@@ -211,7 +218,7 @@ margin-right: auto;
     height: 790px;
     background-color: #F2F2F2;
     z-index: 1;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .feinman_title {
@@ -262,6 +269,7 @@ text-align: center;
     position: relative;
     overflow: hidden;
     z-index: 1;
+    padding-bottom: 90px;
     
 }
 
@@ -303,16 +311,9 @@ text-align: center;
 }
 
 .footer {
-    
     min-height: 350px;
-    
-    
     background-color: #000000;
-    
-    
-    border: solid;
-    border-width: 2px;
-    border-color: fuchsia;
+    padding-top:90px;
 }
 
 .footer__columns {
@@ -320,22 +321,13 @@ text-align: center;
     justify-content: space-between;
     position: relative;
     width: 90%;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    
-    border: solid;
-    border-width: 2px;
-    border-color: #2F80ED
+    margin: 0 auto;
+    height: 250px;
 }
 
 .footer__column {
     line-height: 30px;
     font-size: 18px;
-    border: solid;
-    border-width: 2px;
-    border-color: #2F80ED
 }
 
 .footer__column_content_copyright {
@@ -350,10 +342,6 @@ text-align: center;
     font-size: 18px;
     font-weight: normal;
     color: #ffffff;
-    
-    border: solid;
-    border-width: 2px;
-    border-color: rebeccapurple;
 }
 
 
@@ -362,24 +350,9 @@ text-align: center;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-   
-    
-    border: solid;
-    border-width: 2px;
-    border-color:
 }
 
 
-.logo_place_footer {
-    background-image: url('../images/logo_white.svg');
-    
-    height: 35px;
-     
-    background-size: cover;
-    left: 64px;
-    top: 30px;
-    
-}
 
 .footer__author {
     
@@ -398,8 +371,6 @@ text-align: center;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
-    border: solid;
-    border-width: 2px;
     
 }
 
@@ -408,9 +379,7 @@ text-align: center;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    border: solid;
-    border-width: 2px;
-   
+  
 }
 
 
@@ -422,7 +391,7 @@ text-align: center;
 }
 
 .footer__column_links {
-  
+    margin-bottom: 16px;
 }
 
 .footer__column_link {
